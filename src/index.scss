@@ -1,0 +1,173 @@
+.table-container {
+    display: flex;
+    max-width: 98%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+
+
+  .form_container {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar formulario horizontalmente */
+    padding: 20px; /* Espaciado interno del formulario */
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+    border-radius: 8px; /* Bordes redondeados del formulario */
+}
+  
+
+  .baners {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos, empuja los botones al final */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    width: 100%;
+    background-color: #435d7d;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 0 20px; /* Añade un poco de padding a los lados para que el contenido no quede pegado al borde */
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+}
+
+.textalign{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    align-items: center;
+}
+.text{
+    color: #ddd;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.textsmart{
+    color: #ddd;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bolder;
+    
+
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    
+    
+    
+    cursor: pointer;
+}
+
+.buttoncolor1{
+    background-color: #d9534f;
+    color: #ddd;
+}
+
+.buttoncolor2{
+    background-color: #5cb86b;
+    color: #ddd;
+    
+}
+
+button:hover {
+    background-color: #435d7d;
+}
+
+.sidebuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: end; /* Alinea verticalmente los botones en el centro del contenedor */
+    gap: 10px; /* Agrega espacio entre los botones */
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  .pagination {
+    display: flex;
+    
+    width: 100%;
+    align-items: center;
+    justify-content: space-between; /* Centra los botones horizontalmente */
+    gap: 5px;
+    padding: 10px; /* Espacio alrededor de los botones */
+    
+}
+
+.paginationoriginal{
+    display: flex;
+    
+    
+    align-items: end;
+    justify-content: end; /* Centra los botones horizontalmente */
+    gap: 5px;
+    padding: 10px; /* Espacio alrededor de los botones */
+
+}
+  
+  .page-button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .page-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .page-button:hover {
+    background-color: #ddd;
+  }
+
+  @mixin shadow-lg {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  
+  // Estilo para el contenedor que usa Flexbox
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 

@@ -1,0 +1,27 @@
+@import 'mixins'; // Import the mixin
+
+
+
+h1 {
+    @include rem-font-size(2rem); // Example size for h1
+  }
+  
+  h2 {
+    @include rem-font-size(1.5rem); // Example size for h2
+  }
+  
+  h3 {
+    @include rem-font-size(1.25rem); // Example size for h3
+  }
+  
+  h4 {
+    @include rem-font-size(1rem); // Example size for h4
+  }
+  
+  h5 {
+    @include rem-font-size(0.875rem); // Example size for h5
+  }
+  
+  h6 {
+    @include rem-font-size(0.75rem); // Example size for h6
+  }

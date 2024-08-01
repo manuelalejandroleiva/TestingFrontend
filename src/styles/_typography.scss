@@ -1,0 +1,5 @@
+@import 'colors'; // Import the color map
+
+p {
+  color: map-get($colors, 'text'); // Apply color from the map
+}
